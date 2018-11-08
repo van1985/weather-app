@@ -3,9 +3,6 @@ import SearchInput from '../searchInput/searchInput'
 import SearchResults from '../searchResults/searchResults'
 import GoogleMap from '../googleMap/googleMap'
 
-//@styles
-import styles from './search.css';
-
 class Search extends Component {
 
     state = {
