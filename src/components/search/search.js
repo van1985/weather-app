@@ -3,13 +3,16 @@ import SearchInput from '../searchInput/searchInput'
 import SearchResults from '../searchResults/searchResults'
 import GoogleMap from '../googleMap/googleMap'
 
+//@styles
+import './search.css';
+
 class Search extends Component {
 
     state = {
         dataWeather: undefined,
-        coord:{ 
-            lon: -58.3712,
-            lat: -34.6083
+        coord: {
+            lat: 33.56,
+            lon: 45.55
         },
         lastResults:new Array()
     }
@@ -85,10 +88,6 @@ class Search extends Component {
         return (
             <div>
                 <SearchResults columns={this.buildHeadersColumn()} dataColumns={this.buildDataColumn()} />
-                <GoogleMap 
-                    lat={this.state.coord.lat}
-                    lon={this.state.coord.lon}
-                />
             </div>
         )
     }
@@ -101,6 +100,12 @@ class Search extends Component {
             {this.state.lastResults.map(this.renderLastResults,this)}
         </div>
             { this.state.dataWeather ? this.buildSearchResultsBlock() : null }
+            <div className = {this.state.dataWeather ? "map-visible" : "map-hidden"}>
+            <GoogleMap 
+                    lat={this.state.coord.lat}
+                    lon={this.state.coord.lon}
+                />
+            </div>
         </div>
     )
     }

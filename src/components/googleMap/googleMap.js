@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 class GoogleMap extends Component {
-  static defaultProps = {
-    center: {
-      lat: 59.95,
-      lng: 30.33
-    },
-    zoom: 11
-  };
 
   render() {
     return (

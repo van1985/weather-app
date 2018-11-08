@@ -43,3 +43,10 @@
   }
 
   
+  .map-visible {
+    visibility:visible;
+  }
+  
+  .map-hidden {
+    visibility: hidden;
+  }
