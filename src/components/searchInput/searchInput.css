@@ -27,3 +27,13 @@
     margin: 10px 8px 10px 8px;
     vertical-align: middle;
 }
+
+.searchInput-btn {
+    display:inline-block;
+    background-color:#282c34;
+    width:130px;
+    height:35px;
+    color:white;
+    border:1px solid #6494c4;
+    cursor:pointer;
+}
