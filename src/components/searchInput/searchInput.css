@@ -1,0 +1,29 @@
+.searchInput-form {
+    text-decoration:none;
+    font-size:12px;
+    font-weight:bold;
+    padding:0;
+    line-height:32px;
+    height: auto;
+    display:inline-block;
+    text-align:center;
+    background-color:#DDDDDD;
+    color:·#333333;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+.searchInput-input {
+    text-decoration:none;
+    font-size:12px;
+    font-weight:bold;
+    padding:0 15px;
+    line-height:32px;
+    height: auto;
+    display:inline-block;
+    text-align:center;
+    background-color:#DDDDDD;
+    color:·#333333;
+    margin: 10px 8px 10px 8px;
+    vertical-align: middle;
+}

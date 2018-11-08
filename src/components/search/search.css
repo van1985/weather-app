@@ -1,0 +1,45 @@
+.btn {
+    text-decoration:none;
+    font-size:12px;
+    font-weight:bold;
+    padding:0 15px;
+    line-height:32px;
+    height: auto;
+    display:inline-block;
+    text-align:center;
+    background-color:#DDDDDD;
+    color:·#333333;
+    margin: 10px 8px 10px 8px;
+    vertical-align: middle;
+  }
+
+  .pill {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+
+  }
+
+  .cross-img{
+    content: url("../../assets/cross.png");
+    width: 12px;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    margin:0;
+    padding: 0px 8px;
+    line-height: 100px;
+  }
+
+  .spinner-img{
+    content: url("../../assets/spinner.png");
+    width: 12px;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    margin:0;
+    padding: 0px 8px;
+    line-height: 100px;
+  }
+
+  
